@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Exercico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Titulo</h1>
+    </header>
+    <section>
+        <div>
+                <p>
+                    <label for="ini">Inicio: </label>
+                    <input type="number" name="ini" id="ini" required>
+                </p>
+
+                <p>
+                    <label for="fim">Fim: </label>
+                    <input type="number" name="fim" id="fim" required>
+                </p>
+
+                <p>
+                    <label for="passo">Passo: </label>
+                    <input type="number" name="passo" id="passo" min="1" value="1">
+                </p>
+                <p>
+                    <input type="button" value="Contar" onclick="conte()">
+                    <input type="button" value="Limpar" onclick="limpe()">
+                </p>
+
+        </div>
+        <div id="res">
+            Digite as informações para contar
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Curso em video</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
